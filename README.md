@@ -48,8 +48,6 @@ If you are a Computer Science student and you are trying to post your resume on 
 
    1. In your GitHub Homepage, click the drop-down button in the upper right corner.
 
-      ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume\1.gif)
-
    2. In the Repository Name, we normally use yourusername.github.io. 
 
       For example, if your username is Tom,  you repository name should be 
