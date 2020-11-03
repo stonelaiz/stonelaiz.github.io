@@ -55,10 +55,7 @@ If you are a Computer Science student and you are trying to post your resume on 
       ```
       tom.github.io
       ```
-
-      remember the username must be lowercase.
-
-      ![]()
+      remember the username should be lowercase.
 
    3. Then, you can choose public or private for your repository. 
 
