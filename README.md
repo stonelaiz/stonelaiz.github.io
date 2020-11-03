@@ -14,17 +14,17 @@ If you are a Computer Science student and you are trying to post your resume on 
 
 - #### Markdown
 
-  Markdown is a markup language that can be written by a common text editor. Through simple markup syntax, it can make common text content have a certain format, and for GitHub, we will choose GitHub format. Also this is a[tutorial](https://www.markdowntutorial.com/) for how to use Markdown, it is easy to learn, highly recommended.
+  Markdown is a markup language that can be written by a common text editor. Through simple markup syntax, it can make common text content have a certain format, and for GitHub, we will choose GitHub format. Also this is a [tutorial](https://www.markdowntutorial.com/) for how to use Markdown, it is easy to learn, highly recommended.
 
 - #### Markdown Editor
 
-  Typora, Atom, VScode or MarkdownPad. 
+  There are many Markdown Editor on the internet, like Typora, Atom, VScode or MarkdownPad.
 
-  For this file we use [Typora](https://typora.io/).
+  For this file we use [Typora](https://typora.io/), because it easier to use, and their website design is great!
 
 - #### GitHub Account
 
-  If you want to post a resume on GitHub, you have to have a GitHub Account!
+  If you want to post a resume on GitHub, you have to have a GitHub Account.
 
 - #### [GitHub Pages](https://pages.github.com/)
 
@@ -43,6 +43,8 @@ If you are a Computer Science student and you are trying to post your resume on 
    Use Markdown to write a resume. If you have no idea how to start it, there are many templates on the GitHub, check what other people do it good way to learn.
 
 2. #### Create a Repository
+
+   As what Etter say in his book, we need use distributed version control system (DVCS) like Git and Mercurial, so we will use GitHub in this tutorial. 
 
    1. In your GitHub Homepage, click the drop-down button in the upper right corner.
 
@@ -79,12 +81,54 @@ If you are a Computer Science student and you are trying to post your resume on 
    3. Then refresh the website, now you can see the notice in the GitHub pages.
    4. After a few minutes you can check the website you set before, now it should be available for views.
 
-5. #### d
+5. #### Make Static Websites
+
+   From Etter's book, we also need a Make a Static Websites. In fact in the last step we already make a static websites, GitHub are use Jekyll to process your file to into static websites, but it is not good enough, we still need to use Jekyll individual to make your websites look better.
+
+      1. Setup Jekyll, If you have no idea how to do that, I will put a tutorial at end of this file.
+
+      2. Choose a Theme, may be some of you are notice that you can choose Jekyll Theme when you setup the GitHub pages, 
+
+         
+
+6. #### Resource
+
+   [Markdown tutorial](https://www.markdowntutorial.com/)
+
+   [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+
+   [GitHub and Jekyll Tutorial](http://mcace.me/github-pages/jekyll/2018/06/17/use-github-pages.html)
+
+## Acknowledgements
+
+Template from [jzj1993](https://github.com/jzj1993)
+
+Some fonts, icons, etc. come from: [CyC2018](https://github.com/CyC2018/Markdown-Resume), [billryan](https://github.com/billryan/resume)
 
 
 
+## FAQs
 
+Q: Why is Markdown better than a word processor?
 
+​	A: For the programmer, the Markdown is better than word processor, and I have some reason to support it
+
+			1. Markdown can help you foucus on your text content instead of typography.
+			2. Markdown can easliy export PDF, HTML and md file
+			3. Markdown is plain text content, compatible with all text editors and word processing software.
+			4. Modify your article version at any time, no need to generate several file versions like word processing software to 			cause confusion.
+			5. Readable, intuitive and low cost of learning.
+
+Q: Why is all my whitespace in Markdown is not showing up?
+
+​	A: If you type sequential whitespace, most Markdown editor will ignore them, it will showing in editing view, but if you try to print your file or export it, all whitespace will be ignored.
+
+​		There are two way to solve this problem
+
+            1. Put "\" before every whitespace, it can escape whitespace
+            2. Use HTML entity $nbsp
+
+   	Both way are only available in Source Code Mode
 
 
 
