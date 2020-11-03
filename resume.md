@@ -14,7 +14,7 @@
 
 ## <img src="resume/project.svg" height="20px"> Professional Experience
 
-### Ping An Insurance (Group) Company of China   \ \ \ \ \ \ \ \ \ \ \ \         												2018.06 ~ 2018.09
+### Ping An Insurance (Group) Company of China   ​     												2018.06 ~ 2018.09
 
 ### Database development Internship  2018.06 ~ 2018.09
 
