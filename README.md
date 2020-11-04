@@ -80,20 +80,20 @@ This README is to show Computer Science students how to host a resume on GitHub 
 
    - Open resume by clicking `Open in Typora` or if your use other editor, it should be `Open in YourEditor`
 
-     ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume\open in markdown.gif)
+     ![Site Demo](resume/open in markdown.gif)
 
    - Now you can change the resume by **Typora** 
 
    - After you save your modification, you can check what you have modified and the modify history by using **GitHub Desktop**
-
-     ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume\history.gif)
+     
+     ![Site Demo](resume/history.gif)
 
 6. ####  Upload the Modified Website
 
    - Click the `Commit to main` at left bottom of GitHub Desktop
    - Click `Push origin` in next pages.
 
-   ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume\upload.gif)
+   ![Site Demo](resume/upload.gif)
 
 ## Principles of Andrew Etter
 
