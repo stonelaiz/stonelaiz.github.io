@@ -144,11 +144,11 @@ Q: Why is Markdown better than a word processor?
 
 A: For the programmers, the Markdown is better than a word processor, and reasons are shown below:
 
-			1. Markdown can help you focus on your text content instead of typography.
-			2. Markdown can easily export PDF, HTML and md file
-			3. Markdown is plain text content, compatible with all text editors and word processing software.
-			4. Modify your article version at any time, no need to generate several file versions like word processing software which causes confusion.
-			5. Readable, intuitive and low cost of learning.
+	1. Markdown can help you focus on your text content instead of typography.
+	2. Markdown can easily export PDF, HTML and md file
+	3. Markdown is plain text content, compatible with all text editors and word processing software.
+	4. Modify your article version at any time, no need to generate several file versions like word processing software which causes confusion.
+	5. Readable, intuitive and low cost of learning.
 
 Q: Why is all my whitespace in Markdown is not showing up?
 
@@ -156,8 +156,8 @@ A: If you type sequential whitespace, most Markdown editor will ignore them and 
 
 ​		There are two ways to solve this problem:
 
-            1. Put "\" before every whitespace, it can escape whitespace
-            2. Use HTML entity $nbsp
+    1. Put "\" before every whitespace, it can escape whitespace
+    2. Use HTML entity $nbsp
 
    	Both ways are only available in Source Code Mode.
 
