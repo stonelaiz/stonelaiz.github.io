@@ -1,7 +1,7 @@
 # How to host a resume on GitHub
 
 There is a demo of a resume make by static website and host on GitHub
-
+<img src="resume/resume.gif" width="18px">
 ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume.gif)
 
 ## Purpose
