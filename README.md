@@ -2,7 +2,7 @@
 
 There is a demo of a resume make by static website and host on GitHub
 
-[Publishing to Git](resume.gif)
+![Site Demo](./readme-gifs/site-demo.gif)
 
 ## Purpose
 
