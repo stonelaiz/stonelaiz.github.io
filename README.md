@@ -1,4 +1,4 @@
-# How to host a resume on GitHub
+## How to host a resume on GitHub
 
 ------
 
