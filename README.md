@@ -2,13 +2,13 @@
 
 ------
 
+## Purpose
 
+This project aims to help you host your resume on GitHub and follow the concepts in Andrew Etter's book Modern Technical Writhing. In this README, you will learn all necessary tool, and the installation processes of how to make a static website for your resume.
 
 ## Audience 
 
-If you are a Computer Science student and you are trying to post your resume on GitHub, then this document may be able to help you 
-
-
+This README is to show Computer Science students how to host a resume on GitHub by using necessary tool.
 
 ## Prerequisites
 
@@ -24,83 +24,98 @@ If you are a Computer Science student and you are trying to post your resume on 
 
 - #### GitHub Account
 
-  If you want to post a resume on GitHub, you need to have a GitHub account.
-
-- #### [GitHub Pages](https://pages.github.com/)
-
-  GitHub Pages is a web hosting service provided by GitHub. It can be used to store static web pages, including blogs and project documents. Generally, the GitHub Pages website uses the subdomain name of github.io.
+  If you want to post a resume on GitHub, you need to have a GitHub account to use the GitHub Pages.
 
 - #### Jekyll
 
   Jekyll is a simple static website generator for generating individual, project and organization websites.
 
+- #### Resume 
+
+  Use Markdown to write a resume. If you have no idea how to start it, there are many templates on the GitHub, check what other people do is a good way to learn.
+
+  
+
+## Instructions
+
+1. #### Create a Repository
+
+   - For the Repository Name, we normally use **yourusername.github.io**. For example if the username is tom, then the name of repository should be **tom.github.io**
+   - Choose **public** or **private** for repository, notice that **private** is only for the **repository**, the static website for **resume** will be **public** after **publish**.
+
+2. #### Upload your Resume into Repository
+
+   - Drag and drop the resume into the repository, remember to click the commit changes button after upload complete.
+
+3. #### Setup the GitHub Pages
+
+   - Go to `Settings > Options > Github Pages`.
+
+   - Choose the **main/master** from the source, then click Save.
+
+   - Refresh the website, now their is a new notice like below in the GitHub pages.
+
+     ```
+     Your site is ready to be published at https://your-username.github.io/
+     ```
+
+   - After a few minutes, new notice like below will showing in the GitHub pages, now this website is available for view.
+
+     ```
+     Your site is published at https://your-username.github.io/
+     ```
+
+4. #### Choose Theme
+
+   - Go to `Settings > Options > Github Pages`.
+   - Choose a Theme that basic on Jekyll
+
+5. #### Modify Website Locally
+
+   - Choose repository from **GitHub Desktop** that you want modify, clone them in your desktop.
+
+   - Open resume by click `Open in Typora` or if your use other editor, it should be `Open in YourEditor`
+
+   - Now you can change the resume by **Typora** 
+
+6. ####  Upload Modified Website
+
+   - 
+
+   
+
+## Principles of Andrew Etter
+
+#### Using static webpages 
+
+- For programmer, it is often publish and read some technical materials on the internet, so a simple, fast and portability website is what they need, and this is what a static website can do. You can host them at anywhere without database and a lot of setup processes. 
+
+#### Using a Lightweight Markup Language
+
+- A lightweight markup language with a static site generator is necessary for technical writers, it can quickly convert the documents into HTML. With Lightweight Markup Language, people can quickly create a static website without learning any HTML knowledge. 
+
+- Compared to HTML, Lightweight Markup Language is simpler and  human readable, so it is more efficient. 
+
+#### Using Distributed Version Control System
+
+- Distributed version control system is a method of file version control, which allows different developers to make changes to software or files at the same time without affecting each other. It can be operated offline and locally.
+- For this README, we can use **GitHub Desktop** to control the version. **Git** is also good way to do this job, but for the people who just learn how to use Distributed Version Control System, a visual software may be easier to use than Terminal
 
 
-## Get to Start
 
-1. #### Prepare a Resume
+## More Resource
 
-   Use Markdown to write a resume. If you have no idea how to start it, there are many templates on the GitHub, check what other people do is a good way to learn.
+[Markdown tutorial](https://www.markdowntutorial.com/)
 
-2. #### Create a Repository
+[Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 
-   As Etter says in his book, we need to use a distributed version control system (DVCS) like Git and Mercurial, so we will use GitHub in this tutorial. 
-
-   1. In your GitHub Homepage, click the drop-down button in the upper right corner.
-
-   2. In the Repository Name, we normally use yourusername.github.io. 
-
-      For example, if your username is Tom,  you repository name should be 
-
-      ```
-      tom.github.io
-      ```
-      remember the username should be lowercase.
-
-   3. Then, you can choose public or private for your repository. 
-
-      but, note that even if you choose private after your publish the GitHub Pages, the Pages is public.
-
-   4. You can choose to add a README file if you want to explain your project.
-
-   5. Click Create repository, now you have your first repository in your life.
-
-3. #### Upload your Resume into Repository
-
-   1. Drag and drop your resume into the repository, remember to click the commit changes button after you upload.
-
-4. #### Setup the GitHub Pages
-
-   1. Click the setting button, at the bottom of pages you can find the GitHub Pages, 
-   2. Choose the main or master from the source, then click Save.
-   3. Then refresh the website, now you can see the notice in the GitHub pages.
-   4. After a few minutes you can check the website you set before, now it should be available for views.
-
-5. #### Make Static Websites
-
-   From Etter's book, we also need Make a Static Websites. In fact, in the last step we already make a static websites. GitHub uses Jekyll to process your file to into static websites, but it is not good enough, we still need to use Jekyll individual to make your websites look better.
-
-      1. Setup Jekyll, If you have no idea how to do that, I will put a tutorial at the end of this file.
-
-      2. Choose a Theme, maybe you are already noticed that you can choose Jekyll Theme when you setup the GitHub pages, 
-
-         
-
-6. #### Resource
-
-   [Markdown tutorial](https://www.markdowntutorial.com/)
-
-   [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
-
-   [GitHub and Jekyll Tutorial](http://mcace.me/github-pages/jekyll/2018/06/17/use-github-pages.html)
+[GitHub and Jekyll Tutorial](http://mcace.me/github-pages/jekyll/2018/06/17/use-github-pages.html)
 
 ## Acknowledgements
 
 Template from [jzj1993](https://github.com/jzj1993)
 
 Some fonts, icons, etc. come from: [CyC2018](https://github.com/CyC2018/Markdown-Resume), [billryan](https://github.com/billryan/resume)
-
-
 
 ## FAQs
 
