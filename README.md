@@ -67,7 +67,7 @@ This README is to show Computer Science students how to host a resume on GitHub 
      Your site is published at https://your-username.github.io/
      ```
 
-   ![](C:\Users\Josh\Desktop\新建文件夹 (6)\resume\GitHub-pages.gif)
+   ![Site Demo](resume/GitHub-pages.gif)
 
 4. #### Choose Theme
 
