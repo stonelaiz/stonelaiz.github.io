@@ -80,7 +80,7 @@ This README is to show Computer Science students how to host a resume on GitHub 
 
    - Open resume by clicking `Open in Typora` or if your use other editor, it should be `Open in YourEditor`
 
-     ![Site Demo](resume/open in markdown.gif)
+     ![Site Demo](resume/openinmarkdown.gif)
 
    - Now you can change the resume by **Typora** 
 
